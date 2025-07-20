@@ -1,0 +1,70 @@
+/*shared to all*/
+body{
+    background-color: rgb(241, 235, 235);
+}
+.lora-uniquifier{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/*navigation place*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+   margin: 30px 70px 0 70px;
+   align-items: center;
+}
+.nav h3{
+    font-size: 25px;
+}
+.nav-title{
+    display: flex;
+    gap: 35px;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+}
+/*banner place*/
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+}
+.banner h1{
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgb(143, 49, 49);
+    height: 140px;
+}
+.banner p{
+    font-size: 18px;
+    width: 510px;
+    height: 55px;
+}
+.btn-primary{
+    background-color: rgb(224, 44, 109);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 24px;
+}
+.banner-img img{
+    width: 390px;
+    height: 350px;
+}
+/*section-one*/
+.sec-one{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px;
+
+}
+
+/*section-two*/
+
