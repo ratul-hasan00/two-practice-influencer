@@ -63,8 +63,111 @@ body{
   justify-content: space-evenly;
   align-items: center;
   padding: 100px;
+}
+/*section-two*/
+.sec-two h1{
 
 }
+.sec-two-title{
+    font-size: 20px;
+    text-align: center;
+}
+.sec-two-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 28px;
+    width: 1047px;
+    text-align: center;
+    margin-left: 160px;  
+}
+.sec-two-card{
+    
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    width: 300px;
+    box-shadow: 4px 4px 10px rgb(0,0,0,0.3);
+}
+.sec-two-card img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px ;
+}
+.sec-two-card h4{
+    font-size: 30px;
+    font-weight: 500px;
+    height: 10px;
+}
+.sec-two-card h5{
+    font-size: 20px;
+    font-weight: 400px;
+    height: 10px;
+}
+.star{
+    height: 10px;
+}
+#full-star{
+    color: gold;
+}
+#half-star{
+    color: gold ;
+}
+.rate{
+    font-size: 10px;
+}
+.star-description{
+    font-size: 15px;
+}
+/*section-three*/
+.see-more{
+    text-align: right;
+    margin-right: 160px;
+    margin-top: 30px;
+}
+.see-more a{
+    text-decoration: none;
+    color: rgb(224, 44, 109) ;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*section-four*/
+.sec-four{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+}
+.sec-four-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    height: 40px;
+}
+/*footer*/
+.foot{
+    background-color: rgb(3, 3, 34) ;
+    color: white;
+    margin-top: 60px;
+    height: 300px;
+}
+.foot-content{
+   text-align: center;
+   position: relative;
+   top: 95px;
+}
+.foot-content h1{
+    font-size: 25px;
+    height: 20px;
+}
+.copyright{
+    height: 20px;
 
-/*section-two*/
-
+}
+.foot-icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.colo-ico{
+    background-color: rgba(255 , 255, 255 , 0.1);
+    border-radius: 40%;
+}
